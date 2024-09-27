@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    tools:context=".QuotesActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_black_rectangle">
+        <!--    101010-->
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="Enumeration"
+            android:id="@+id/txtEnumerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:id="@+id/realtiveLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ImgId"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <!--nunito_semi_bold, proxima_nova_semibold, bariol_bold_webfont, bariol_regular these 4 are the best
+                basefont and arcutilate are worst gives gap but articulate is fine!-->
+                <TextView
+                    android:id="@+id/textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="9dp"
+                    android:background="@drawable/quote_background_rectangle"
+                    android:fontFamily="@font/bariol_bold_webfont"
+                    android:gravity="center"
+                    android:paddingStart="11dp"
+                    android:paddingTop="17dp"
+                    android:paddingEnd="11dp"
+                    android:paddingBottom="17sp"
+                    android:text="“Any fool can know. The point is to understand.”\n\nAlbert Einstine"
+                    android:textColor="@color/white"
+                    android:textSize="24dp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--    We have already taken the like button who can display the pre-image in the lottieanimationview before playing the animation or before starting the animation-->
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_marginTop="15dp"
+                android:id="@+id/lottie_like"
+                android:layout_width="110dp"
+                android:layout_height="130dp"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:paddingBottom="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/button_background_rectangle"
+                app:lottie_rawRes="@raw/like_button2" />
+
+            <TextView
+                android:id="@+id/txtLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/lottie_like"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="28dp"
+                android:fontFamily="@font/proxima_nova_semibold"
+                android:text="Like"
+                android:textSize="12dp"
+                android:textColor="@color/white" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/downloadIcon"
+                app:lottie_speed="3.7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="45.5dp"
+                app:lottie_rawRes="@raw/download" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/downloadIcon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="-2dp"
+                android:fontFamily="@font/proxima_nova_semibold"
+                android:text="Download"
+                android:textSize="12dp"
+                android:textColor="@color/white" />
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                app:lottie_speed="3"
+                android:id="@+id/shareIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="23dp"
+                android:layout_marginTop="45.5dp"
+                app:lottie_rawRes="@raw/share_wait" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="23dp"
+                android:layout_below="@+id/shareIcon"
+                android:text="Share"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"
+                android:textSize="12dp"
+                android:fontFamily="@font/proxima_nova_semibold"/>
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

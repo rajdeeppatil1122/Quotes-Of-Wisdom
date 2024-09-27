@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="RecyclerViewScrollbar">
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_style</item>
+    </style>
+
+</resources>

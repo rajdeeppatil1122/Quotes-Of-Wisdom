@@ -1,0 +1,3307 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/floral"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginBottom="39dp"
+                android:background="@drawable/special_rectangle"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="All Nobel Quotes By\nGreat People"
+                android:textColor="@color/white"
+                android:textSize="27.2dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/albert_card_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img3"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img1" />
+
+                            <TextView
+                                android:id="@+id/textview3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/quote_background_rectangle"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Albert Einstine"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/abdul_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img2"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img2" />
+
+                            <TextView
+                                android:id="@+id/textview"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/quote_background_rectangle"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="APJ Abdul Kalam"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/steve_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img3" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/nunito_extra_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Steve Jobs"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/henry_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img4" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Henry Ford"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/buddha_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img4"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img5" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Gautama Buddha"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dalai_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img5"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img6" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Dalai Lama"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/bruce_lee_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img6"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img7" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Bruce Lee"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/martin_luther_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img7"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img8" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Martin Luther King Jr."
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/thomas_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img8"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img9" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Thomas Edison"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/bill_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img9"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img10" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Bill Gates"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/abraham_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img11"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img11" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Abraham Lincoln"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/alanwatts_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img12"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img12" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Alan Watts"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/aesop_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img13"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img13" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Aesop"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/albert_camus_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img14"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img14" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Albert Camus"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/benjamin_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img15"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img15" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Benjamin Franklin"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/obama_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img16"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img16" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Barack Obama"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/charlie_chaplin_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img17"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img17" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Charlie Chaplin"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/christphoer_dawson_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img18"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img18" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Christopher Dawson"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/charles_dickens_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img19"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img19" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Charles Dickens"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/antony_robbin_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img20"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img20" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Antony Robin"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/alexander_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img21"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img21" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Alexander The Great"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/christopher_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img22"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img22" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Christopher Hitchens"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/charles_darwin_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img23"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img23" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview23"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Charles Darwin"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/bernard_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img24"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img24" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview24"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Bernard Baruch"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/vivekanand_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img25"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img25" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview25"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Swami Vivekananda"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/deepka_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img26"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img26" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview26"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Deepak Chopra"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/elon_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img27"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img27" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview27"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Elon Musk"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/william_shakes_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img28"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img28" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview28"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="William Shakespeare"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/plato_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img29"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img29" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview29"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Plato"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/socrotes_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img30"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img30" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview30"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Socrates"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sivand_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img31"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img31" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview31"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Swami Sivananda"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/mark_twain_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img32"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img32" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview32"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Mark Twain"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/mahatma_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img33"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img33" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview33"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Mahatma Gandhi"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/leonardo_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img34"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img34" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview34"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Leonardo da Vinci"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/usain_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img35"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img35" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview35"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Usain Bolt"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/helen_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img36"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img36" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview36"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Helen Keller"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/karl_marx_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img37"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img37" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview37"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Karl Marx"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/jesus_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img38"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img38" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview38"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Jesus Christ"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/george_washington_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img39"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img39" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview39"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="George Washington"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/muhummad_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img40"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img40" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview40"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Muhammad"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/emily_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img41"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img41" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Emily Dickinson"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fyodor_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img42"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img42" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Fyodor Dostoevsky"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/jane_austen_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img43"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img43" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Jane Austin"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/osho_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img44"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img44" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview44"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Osho"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/confucius_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img45"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img45" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview45"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Confucius"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/neil_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img46"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img46" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview46"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Neil Armstrong"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/newton_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img47"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img47" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview47"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Isaac Newton"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tony_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img48"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img48" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview48"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Tony Robbins"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/vincent_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img49"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img49" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview49"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Vincent Van Gogh"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/warren_buffett_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img50"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img50" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview50"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Warren Buffett"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/chanakya_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img51"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img51" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview51"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Chanakya"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/denis_waitley_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img52"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img52" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview52"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Denis Waitley"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/walt_disney_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img53"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img53" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview53"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Walt Disney"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/walt_whitman_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img54"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img54" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview54"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Walt Whitman"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/nikola_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/img55"
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img55" />
+
+                            <TextView
+                                android:background="@drawable/quote_background_rectangle"
+                                android:id="@+id/textview55"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Nikola Tesla"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:padding="2.7dp">
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/like_activity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/hs_design" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/roboto_bold_italic"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Your Favorites"
+                                android:textColor="@color/white"
+                                android:textSize="26sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/settings"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_border_rectangle"
+                    android:padding="2.7dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/custom_cardView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="30dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="190dp"
+                                android:scaleType="centerCrop"
+                                android:src="@color/black" />
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:id="@+id/lottie_customization"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="-13dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/hs_design"
+                                app:lottie_rawRes="@raw/settings"
+                                app:lottie_speed="7" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/lottie_customization"
+                                android:layout_centerInParent="true"
+                                android:layout_marginBottom="-5dp"
+                                android:fontFamily="@font/roboto_bold_italic"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="Customization &amp; Style"
+                                android:textColor="@color/white"
+                                android:textSize="24sp" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabFav"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:fabCustomSize="60dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/baseline_favorite_24"
+        android:layout_gravity="bottom|end"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSettings"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:fabCustomSize="60dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/baseline_settings_24"
+        android:layout_gravity="bottom|start"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

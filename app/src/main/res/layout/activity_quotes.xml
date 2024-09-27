@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuotesActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--    101010-->
+
+        <ImageView
+            android:id="@+id/imageViewBackground"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mbg2"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:background="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.jgabrielfreitas.core.BlurImageView
+                    android:id="@+id/blurImgId"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"/>
+
+                <!--nunito_semi_bold, proxima_nova_semibold, bariol_bold_webfont, bariol_regular these 4 are the best
+                basefont and arcutilate are worst gives gap but articulate is fine!-->
+                <TextView
+                    android:id="@+id/textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="9dp"
+                    android:background="@drawable/quote_background_rectangle"
+                    android:fontFamily="@font/bariol_bold_webfont"
+                    android:gravity="center"
+                    android:paddingStart="11dp"
+                    android:paddingTop="17dp"
+                    android:paddingEnd="11dp"
+                    android:paddingBottom="17sp"
+                    android:text="“Any fool can know. The point is to understand.”\n\nAlbert Einstine"
+                    android:textColor="@color/white"
+                    android:textSize="24dp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/next_button"
+            android:layout_width="130dp"
+            android:layout_height="53dp"
+            android:layout_below="@+id/card_view"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="#03A9F4"
+            android:fontFamily="@font/articulat_bold"
+            android:text="NEXT"
+            android:textSize="11dp"
+            app:cornerRadius="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/previous_button"
+            android:layout_width="130dp"
+            android:layout_height="53dp"
+            android:layout_below="@+id/card_view"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#03A9F4"
+            android:fontFamily="@font/articulat_bold"
+            android:text="PREVIOUS"
+            android:textSize="11dp"
+            app:cornerRadius="16dp" />
+
+        <!--    We have already taken the like button who can display the pre-image in the lottieanimationview before playing the animation or before starting the animation-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_view"
+            android:layout_centerHorizontal="true">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_like"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="75dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/button_background_rectangle"
+                app:lottie_rawRes="@raw/like_button2" />
+
+            <TextView
+                android:id="@+id/txtLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/lottie_like"
+                android:layout_marginBottom="9dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/proxima_nova_semibold"
+                android:text="Like"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            app:lottie_speed="3"
+            android:id="@+id/shareIcon"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_below="@id/next_button"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginTop="33dp"
+            app:lottie_rawRes="@raw/share_wait" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="23dp"
+            android:layout_below="@+id/shareIcon"
+            android:text="Share"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/proxima_nova_semibold"/>
+
+        <TextView
+            android:id="@+id/txtFavorites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/t1"
+            android:text="Favorites"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:background="#15202B"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/purple_500"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/proxima_nova_semibold"/>
+
+        <TextView
+            android:id="@+id/txtCustomization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_below="@+id/t2"
+            android:text="Read Info."
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:background="#15202B"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/purple_500"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/proxima_nova_semibold"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            app:lottie_speed="3.7"
+            android:id="@+id/downloadIcon"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_below="@id/next_button"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="33dp"
+            app:lottie_rawRes="@raw/download" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shareIcon"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/proxima_nova_semibold"
+            android:text="Download"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</ScrollView>
